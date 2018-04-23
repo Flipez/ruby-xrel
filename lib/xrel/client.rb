@@ -1,3 +1,5 @@
+autoload :Typhoeus, 'typhoeus'
+autoload :Oj, 'oj'
 module Xrel
   class Client
     attr_reader :api_base, :format
